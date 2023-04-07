@@ -1,0 +1,30 @@
+{
+    "name": "zhh2100/pidan-filesystem",
+    "description": "The pidan1.0 Filesystem Package",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "jetee",
+            "email": "112738102@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "pidan\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "pidan\\tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.2.5",
+        "zhh2100/framework": "^1.0.1",
+        "league/flysystem": "^1.1.4",
+        "league/flysystem-cached-adapter": "^1.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
