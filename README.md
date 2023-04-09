@@ -1,4 +1,4 @@
-# pidan-filesystem for ThinkPHP6.1
+# pidan-filesystem for PidanPHP1.0
 
 ## 安装
 
